@@ -1,5 +1,4 @@
 {
-  "homepage": "https://yash-jk.github.io/yash.portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -30,6 +29,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.13",
     "gh": "^2.8.9",
+    "gh-pages": "^6.3.0",
     "globals": "^15.11.0",
     "pages": "^0.0.16",
     "postcss": "^8.5.1",
