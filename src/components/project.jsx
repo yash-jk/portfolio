@@ -4,7 +4,8 @@ const projects = [
   {
     title: "WeatherLYF",
     description: "Designed and developed a responsive weather website featuring real-time updates, auto-detection of user location, and detailed weather forecasts through API integration, ensuring seamless performance across devices and browsers.",
-    imageUrl: "img/img1.jpg",
+    imageUrl: "img1.jpg",
+    alt: "project1",
     technologies: ["HTML", "CSS", "Javascript"],
     githubLink: "https://github.com/yash-jk/WeatherLYF",
     liveLink: "https://yash-jk.github.io/WeatherLYF/",
@@ -12,7 +13,8 @@ const projects = [
   {
     title: "E-Validate",
     description: "Developed an email validation website using HTML, CSS, JavaScript, and API integration, offering real-time email format checking, domain verification, and SMTP checks. Focused on creating a user-friendly interface with a responsive design for seamless usage across devices.",
-    imageUrl: "img/img2.jpg",
+    imageUrl: "img2.jpg",
+    alt: "project2",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/yash-jk/E-Validate",
     liveLink: "https://yash-jk.github.io/E-Validate/",
@@ -34,7 +36,7 @@ const Project = () => {
               <div className="relative group">
                 <img
                   src={project.imageUrl}
-                  alt={`Project ${index + 1}: ${project.description}`}
+                  alt={`Project ${index + 1}: ${project.alt}`}
                   className="rounded w-full h-auto"
                 />
                 <div className="absolute inset-0 bg-cyan-300/20 group-hover:bg-transparent transition-colors"></div>
