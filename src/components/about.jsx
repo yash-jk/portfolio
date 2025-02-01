@@ -36,7 +36,7 @@ const about = () => {
           <div className="relative group">
             <div className="relative z-10">
               <img 
-                src="pfp.jpg" 
+                src="Images/pfp.jpg" 
                 alt="Profile" 
                 className="rounded border-t-2 border-b-2 border-transparent border-cyan-300 grayscale hover:grayscale-0 transition-all"
               />            

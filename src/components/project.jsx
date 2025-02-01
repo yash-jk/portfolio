@@ -4,7 +4,7 @@ const projects = [
   {
     title: "WeatherLYF",
     description: "Designed and developed a responsive weather website featuring real-time updates, auto-detection of user location, and detailed weather forecasts through API integration, ensuring seamless performance across devices and browsers.",
-    imageUrl: "img1.jpg",
+    imageUrl: "Images/img1.jpg",
     alt: "project1",
     technologies: ["HTML", "CSS", "Javascript"],
     githubLink: "https://github.com/yash-jk/WeatherLYF",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "E-Validate",
     description: "Developed an email validation website using HTML, CSS, JavaScript, and API integration, offering real-time email format checking, domain verification, and SMTP checks. Focused on creating a user-friendly interface with a responsive design for seamless usage across devices.",
-    imageUrl: "img2.jpg",
+    imageUrl: "Images/img2.jpg",
     alt: "project2",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubLink: "https://github.com/yash-jk/E-Validate",
