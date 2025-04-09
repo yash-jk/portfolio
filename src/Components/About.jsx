@@ -41,7 +41,7 @@ const About = () => {
                  <img 
                    src={profileImg}
                    alt="Profile" 
-                   className="rounded border-t-2 border-b-2 border-transparent border-cyan-300 grayscale hover:grayscale-0 transition-all"
+                   className="rounded border-t-2 border-b-2  border-cyan-300 grayscale hover:grayscale-0 transition-all"
                  />            
                </div>
                <div className="absolute inset-0 border-2 border-cyan-300 rounded translate-x-4 translate-y-4 -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-all"></div>
